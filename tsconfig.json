@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+		"module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "lib": [
+      "es2019"
+    ],
+    "removeComments": true,
+    "inlineSourceMap": true,
+    "strictNullChecks": true,
+		"noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "types": [
+      "node"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "declaration": true
+  },
+	"include": ["src/**/*"]
+}
